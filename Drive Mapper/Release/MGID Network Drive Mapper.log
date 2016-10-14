@@ -1,0 +1,20 @@
+﻿Build started 5/18/2016 9:44:16 AM.
+     1>Project "C:\Users\bhamelin\Documents\Visual Studio 2013\Projects\MGID Network Drive Mapper\MGID Network Drive Mapper\MGID Network Drive Mapper.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MGID.cpp Mapper.cpp
+         MGID.cpp
+         Mapper.cpp
+     1>Mapper.cpp(79): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bhamelin\Documents\Visual Studio 2013\Projects\MGID Network Drive Mapper\Release\MGID Network Drive Mapper.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Release\MGIDNetworkDriveMapper.MGID.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bhamelin\Documents\Visual Studio 2013\Projects\MGID Network Drive Mapper\Release\MGID Network Drive Mapper.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\Mapper.obj
+         Release\MGID.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         MGID Network Drive Mapper.vcxproj -> C:\Users\bhamelin\Documents\Visual Studio 2013\Projects\MGID Network Drive Mapper\Release\MGID Network Drive Mapper.exe
+     1>Done Building Project "C:\Users\bhamelin\Documents\Visual Studio 2013\Projects\MGID Network Drive Mapper\MGID Network Drive Mapper\MGID Network Drive Mapper.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.74
